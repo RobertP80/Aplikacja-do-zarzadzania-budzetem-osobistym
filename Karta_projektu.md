@@ -1,0 +1,166 @@
+# Karta projektu
+
+Karta projektu to pierwszy oficjalny dokument projektowy, który opisuje jego podstawowe założenia: dlaczego projekt powstaje, co ma osiągnąć, jakie są ograniczenia, kto za co odpowiada i jak będzie mierzony sukces.
+
+## Struktura karty projektu 
+
+|Sekcja|Co zawiera|Przykładowe treści|
+|---------------------|-------------------------------------------------|--------------------------------------|
+|1. Tytuł projektu|Nazwa projektu i akronim|„SRS – System Rezerwacji Sal”|
+|2. Cel projektu|Co projekt ma osiągnąć i dlaczego|„Umożliwienie rezerwacji sal przez studentów i wykładowców |online.”
+|3. Uzasadnienie biznesowe / edukacyjne|Dlaczego projekt jest potrzebny|„Obecnie rezerwacje odbywają się e-mailowo. System poprawi efektywność i przejrzystość procesu.”|
+|4. Zakres projektu|Co wchodzi w zakres i co jest poza zakresem|„W zakresie: rezerwacja, kalendarz, powiadomienia; poza zakresem: integracja z systemem ERP uczelni.”|
+|5. Główne wymagania|Wstępna lista funkcjonalności|„Użytkownik może wyszukać salę, dokonać rezerwacji, otrzymać potwierdzenie e-mail.”|
+|6. Zespół projektowy i role|Lista członków i ich funkcji|„Kierownik – A. Nowak, Analityk – B. Kowalska, Programista – C. Wiśniewski, Tester – D. Maj.”|
+|7. Zasoby i narzędzia|Technologie, środowisko, repozytorium, narzędzia komunikacji|„GitHub, Jira, Miro, Python Django, PostgreSQL.”|
+|8. Harmonogram wstępny|Etapy realizacji projektu|„Analiza wymagań (1–2 tydz.), Projektowanie (3–4 tydz.), Implementacja (5–7 tydz.), Testy (8 tydz.), Prezentacja (10 tydz.)”|
+|9. Ryzyka i działania zapobiegawcze|Potencjalne zagrożenia i sposoby ich ograniczenia|„Brak komunikacji w zespole → cotygodniowe spotkania online.”|
+|10. Oczekiwane rezultaty (produkty projektu)|Co powstanie na koniec|„Działający prototyp aplikacji + pełna dokumentacja projektowa.”|
+|11. Kryteria sukcesu|Jak zostanie oceniony sukces projektu|„Aplikacja działa w przeglądarce, dokumentacja zawiera wszystkie diagramy UML.”|
+|12. Akceptacja projektu|Podpisy|„Zatwierdza: prowadzący, kierownik projektu.”|
+
+
+## KARTA PROJEKTU - przykład
+1. Informacje ogólne
+
+Tytuł projektu:
+SmartRoom – System Rezerwacji Sal Uczelnianych
+
+Akronim projektu:
+SRSU
+
+Data utworzenia: 17.10.2025
+Wersja dokumentu: 1.0
+Zespół projektowy:
+
+Imię i nazwisko|Rola w projekcie|Zakres odpowiedzialności
+----------------|------------------------------------------------|----------------------------------------------
+Anna Nowak|Kierownik projektu|Planowanie, koordynacja, raportowanie postępów, kontakt z prowadzącym
+Michał Kamiński|Analityk systemowy|Analiza wymagań, tworzenie przypadków użycia, diagramów UML
+Karolina Zielińska|Programista|Implementacja backendu (Django), integracja z bazą danych
+Piotr Sadowski|Tester|Opracowanie scenariuszy testowych, testy funkcjonalne i akceptacyjne
+Julia Malinowska|Dokumentalista|Redakcja dokumentacji projektowej, raporty, prezentacja końcowa
+
+Prowadzący: mgr Wojciech Moniuszko
+Jednostka dydaktyczna: ??
+
+2. Cel projektu
+
+Celem projektu SmartRoom jest opracowanie i wdrożenie webowej aplikacji do rezerwacji sal uczelnianych, umożliwiającej:
+
+- studentom i wykładowcom szybkie wyszukiwanie dostępnych sal,
+- rezerwowanie terminów zajęć, konsultacji lub spotkań,
+- przeglądanie kalendarza dostępności w czasie rzeczywistym,
+- otrzymywanie powiadomień e-mail o potwierdzeniu lub anulowaniu rezerwacji.
+- Projekt ma służyć jako prototyp systemu klasy ERP-light dla uczelni, z potencjałem dalszego rozwoju.
+
+3. Uzasadnienie projektu
+
+Obecnie proces rezerwacji sal odbywa się drogą mailową lub telefoniczną, co prowadzi do:
+
+- duplikowania rezerwacji,
+- braku przejrzystości kalendarza,
+- opóźnień w potwierdzaniu terminów.
+
+Projekt rozwiązuje te problemy poprzez automatyzację i centralizację rezerwacji w jednym systemie, zwiększając efektywność i przejrzystość zarządzania zasobami uczelni.
+
+4. Zakres projektu
+
+W zakresie projektu:
+
+- Opracowanie wymagań funkcjonalnych i niefunkcjonalnych.
+- Zaprojektowanie systemu z wykorzystaniem UML (Use Case, Class, Activity, Sequence).
+- Implementacja aplikacji webowej w technologii Django + Bootstrap.
+- Utworzenie relacyjnej bazy danych (PostgreSQL).
+- Stworzenie dokumentacji projektowej i technicznej.
+- Przeprowadzenie testów i prezentacji prototypu.
+
+Poza zakresem projektu:
+
+- Integracja z systemami dziekanatowymi.
+- Mobilna wersja natywna.
+- Integracja z uczelnianym LDAP-em.
+
+5. Wymagania 
+
+Typ | Opis
+---------------------------|-----------------------------------------------------------------------------------
+Funkcjonalne|Rezerwacja sal przez użytkowników, logowanie, wyszukiwanie według daty i sali, powiadomienia e-mail.
+Niefunkcjonalne|Wydajność: max. czas odpowiedzi 3 sekundy. Dostępność: 99%. Responsywność interfejsu.
+Interfejsowe|Przeglądarkowy interfejs webowy w technologii HTML5/CSS3.
+Bezpieczeństwo|Logowanie użytkowników z użyciem haseł SHA256, role: użytkownik/admin.
+
+6. Zespół projektowy i role
+
+Rola|Osoba|Odpowiedzialność
+--------------|-------------------------|-----------------------------------------------------------------------
+Kierownik projektu|Anna Nowak|Harmonogram, raporty, koordynacja
+Analityk|Michał Kamiński|Wymagania, UML, analiza ryzyk
+Programista|Karolina Zielińska|Backend, baza danych
+Tester|Piotr Sadowski|Testy, raporty błędów
+Dokumentalista|Julia Malinowska|Dokumentacja, raporty, prezentacja
+
+7. Zasoby i narzędzia
+
+Kategoria|Narzędzie / Technologia|Cel zastosowania
+-----------------|-----------------------------------|----------------------------------------------------------
+Zarządzanie projektem|Jira, Trello|Planowanie sprintów, śledzenie zadań
+Repozytorium|GitHub|Kontrola wersji kodu
+Analiza i projektowanie|Visual Paradigm, Miro|Diagramy UML, mapa procesu
+Programowanie|Python (Django), HTML/CSS/Bootstrap|Implementacja aplikacji
+Baza danych|PostgreSQL|Przechowywanie danych o salach i rezerwacjach
+Dokumentacja|Word, Overleaf|Tworzenie dokumentacji technicznej
+Komunikacja|Teams, Discord|Spotkania zespołowe
+
+8. Harmonogram realizacji (10 spotkań)
+
+Etap|Zakres|Czas realizacji|Rezultat
+---|----------------------------------------------------|----------------|--------------------------------------
+1|Tworzenie zespołów, wybór tematu, karta projektu|Tydzień 1|Karta projektu, struktura zespołu
+2|Analiza wymagań|Tydzień 2|Dokument wymagań
+3|Projekt systemu – UML|Tydzień 3–4|Diagramy UML
+4|Konfiguracja środowiska|Tydzień 4|Repozytorium, narzędzia
+5|Dokumentacja projektowa (I etap)|Tydzień 5|Projekt dokumentu
+6|Implementacja prototypu (I etap)|Tydzień 6–7|Pierwsza wersja aplikacji
+7|Testowanie i poprawki|Tydzień 8|Raport testów
+8|Dokumentacja końcowa i prezentacja|Tydzień 9–10|Prezentacja, protokół odbioru
+
+9. Analiza ryzyka
+
+Nr|Ryzyko|Prawdopodobieństwo|Skutek|Działanie zapobiegawcze
+--|---------------------------|-----------|-----------------------------------|---------------------------------
+1|Opóźnienia w pracy zespołu|Średnie|Wysoki|Spotkania tygodniowe, śledzenie postępów w Jira
+2|Brak doświadczenia w Django|Wysokie|Średni|Mini-szkolenie i podział modułów według trudności
+3|Konflikty w zespole|Niskie|Średni|Jasny podział ról, komunikacja na Discord
+4|Utrata danych|Niskie|Wysoki|Regularne kopie w GitHub
+5|Niedostarczenie dokumentacji|Niskie|Wysoki|Wczesne rozpoczęcie redakcji przez dokumentalistę
+
+10. Kryteria sukcesu projektu
+
+- Wszystkie wymagania funkcjonalne zostały zaimplementowane.
+- Aplikacja uruchamia się lokalnie i działa poprawnie.
+- Dokumentacja zawiera pełny zestaw diagramów UML.
+- Testy akceptacyjne zakończone wynikiem pozytywnym.
+- Zespół zrealizował projekt w wyznaczonym czasie.
+- Projekt został pozytywnie oceniony przez prowadzącego.
+
+11. Rezultaty projektu
+
+- Prototyp aplikacji webowej (SmartRoom).
+- Dokumentacja projektowa (wymagania, UML, testy).
+- Dokumentacja techniczna (instrukcja uruchomienia).
+- Prezentacja zespołowa (PowerPoint / PDF).
+- Raport końcowy i protokół zdawczo-odbiorczy.
+
+12. Akceptacja projektu
+
+Funkcja|Imię i nazwisko|Data|Podpis
+------------|-------------------------------|--------------|----------------------------------|
+Kierownik projektu|Anna Nowak|17.10.2025|___________
+Prowadzący|mgr Wojciech Moniuszko|17.10.2025|___________
+
+## Uwagi końcowe:
+
+- Dokument powinien być przechowywany w repozytorium projektu.
+- Aktualizacja wersji dokumentu wymaga zgody kierownika projektu i prowadzącego.
+- Każdy członek zespołu ma obowiązek zapoznać się z treścią karty i ją zaakceptować.
