@@ -90,9 +90,9 @@ W zakresie projektu:
 
 -Zaprojektowanie systemu (UML: Use Case, Activity, Class, Sequence).
 
--Implementacja aplikacji webowej w Django + Bootstrap.
+-Implementacja aplikacji webowej w PHP + Bootstrap.
 
--Stworzenie relacyjnej bazy danych PostgreSQL.
+-Stworzenie relacyjnej bazy danych SQLite.
 
 -Generowanie wykresów (np. miesięczne wydatki).
 
@@ -132,8 +132,8 @@ Kategoria|Narzędzie / Technologia|Cel zastosowania
 Zarządzanie projektem|Jira, Trello|Harmonogram, zadania
 Repozytorium|GitHub|Kontrola wersji
 Analiza i projektowanie|Visual Paradigm, Miro|Diagramy, procesy
-Programowanie|Python (Django), HTML/CSS/Bootstrap|Tworzenie aplikacji
-Baza danych|PostgreSQL|Dane transakcji i budżetów
+Programowanie|PHP, HTML/CSS/Bootstrap|Tworzenie aplikacji
+Baza danych|SQLite|Dane transakcji i budżetów
 Dokumentacja|Word, Overleaf|Dokumentacja techniczna 
 Komunikacja|Teams, Discord|Spotkania i koordynacja 
 
@@ -200,6 +200,7 @@ Prowadzący|mgr Wojciech Moniuszko|16.11.2025|___________
 - Dokument powinien być przechowywany w repozytorium projektu.
 - Aktualizacja wersji dokumentu wymaga zgody kierownika projektu i prowadzącego.
 - Każdy członek zespołu ma obowiązek zapoznać się z treścią karty i ją zaakceptować.
+
 
 
 
