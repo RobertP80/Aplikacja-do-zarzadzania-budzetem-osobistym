@@ -27,7 +27,7 @@ Tytuł projektu:
 „Aplikacja do zarządzania budżetem osobistym”
 
 Akronim projektu:
-SRSU
+ABO
 
 Data utworzenia: 17.10.2025
 Wersja dokumentu: 1.0
@@ -164,6 +164,7 @@ Prowadzący|mgr Wojciech Moniuszko|17.10.2025|___________
 - Dokument powinien być przechowywany w repozytorium projektu.
 - Aktualizacja wersji dokumentu wymaga zgody kierownika projektu i prowadzącego.
 - Każdy członek zespołu ma obowiązek zapoznać się z treścią karty i ją zaakceptować.
+
 
 
 
