@@ -102,8 +102,6 @@ W zakresie projektu:
 
 Poza zakresem projektu:
 
--Integracje z bankami (API PSD2).
-
 -Mobilna aplikacja natywna.
 
 -Funkcje automatycznego pobierania historii transakcji.
@@ -191,6 +189,7 @@ Prowadzący|mgr Wojciech Moniuszko|17.10.2025|___________
 - Dokument powinien być przechowywany w repozytorium projektu.
 - Aktualizacja wersji dokumentu wymaga zgody kierownika projektu i prowadzącego.
 - Każdy członek zespołu ma obowiązek zapoznać się z treścią karty i ją zaakceptować.
+
 
 
 
