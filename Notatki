@@ -47,3 +47,14 @@ Poza zakresem projektu:
 -Mobilna aplikacja natywna.
 
 -Funkcje automatycznego pobierania historii transakcji.
+
+
+
+5. Wymagania
+| **Typ**             | **Opis**                                                                                                                   |
+| ------------------- | -------------------------------------------------------------------------------------------------------------------------- |
+| **Funkcjonalne**    | Dodawanie/edycja/usuwanie transakcji, kategorie wydatków, budżety miesięczne, wykresy, rejestracja/logowanie, raporty PDF. |
+| **Niefunkcjonalne** | Czas odpowiedzi ≤ 3 sekundy, dostępność 99%, responsywność UI.                                                             |
+| **Interfejsowe**    | Interfejs webowy HTML5/CSS3/Bootstrap.                                                                                     |
+| **Bezpieczeństwo**  | Logowanie z szyfrowaniem haseł (SHA256), role (użytkownik/admin), walidacja danych.                                        |
+
