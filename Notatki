@@ -100,6 +100,15 @@ Poza zakresem projektu:
 | 8    | Dokumentacja końcowa i prezentacja | Tydzień 9–10    | Gotowy projekt i prezentacja |
 
 
+9. Analiza ryzyka
+| Nr | Ryzyko                          | Prawdopodobieństwo | Skutek | Działania zapobiegawcze              |
+| -- | ------------------------------- | ------------------ | ------ | ------------------------------------ |
+| 1  | Opóźnienia w realizacji modułów | Średnie            | Wysoki | Cotygodniowe spotkania, tablica Jira |
+| 2  | Problemy z integracją wykresów  | Średnie            | Średni | Wczesne testy, konsultacje           |
+| 3  | Brak doświadczenia w Django     | Wysokie            | Średni | Szkolenie + prostsze podmoduły       |
+| 4  | Utrata danych                   | Niskie             | Wysoki | Kopie zapasowe w GitHub              |
+| 5  | Niewystarczająca dokumentacja   | Niskie             | Wysoki | Stała współpraca z dokumentalistą    |
+
 
 
 
