@@ -6,7 +6,7 @@ Karta projektu to pierwszy oficjalny dokument projektowy, który opisuje jego po
 
 |Sekcja|Co zawiera|Przykładowe treści|
 |---------------------|-------------------------------------------------|--------------------------------------|
-|1. Tytuł projektu|Nazwa projektu i akronim|„Aplikacja do zarządzania budżetem osobistym”|
+|1. Tytuł projektu|Nazwa projektu i akronim|„Aplikacja do zarządzania budżetem osobistym” "ABO" |
 |2. Cel projektu|Co projekt ma osiągnąć i dlaczego|„Mobilna aplikacja pozwalająca analizować wydatki i przychody użytkownika.”
 |3. Uzasadnienie biznesowe / edukacyjne|Dlaczego projekt jest potrzebny|„Projekt „Aplikacja do zarządzania budżetem osobistym” odpowiada na rosnącą potrzebę łatwego kontrolowania wydatków i planowania finansów. Umożliwia użytkownikom monitorowanie budżetu, analizowanie nawyków zakupowych i podejmowanie bardziej świadomych decyzji. Ma również wartość edukacyjną, wspierając rozwój kompetencji finansowych poprzez praktyczne zastosowanie.”|
 |4. Zakres projektu|Co wchodzi w zakres i co jest poza zakresem|„Zakres projektu obejmuje stworzenie podstawowej wersji aplikacji do zarządzania budżetem osobistym, wraz z funkcjami dodawania transakcji, ich kategoryzacji oraz prezentacji prostych statystyk. Poza zakresem znajdują się integracje z bankami, prognozowanie finansowe oraz rozszerzone wersje wieloplatformowe.”|
@@ -164,6 +164,7 @@ Prowadzący|mgr Wojciech Moniuszko|17.10.2025|___________
 - Dokument powinien być przechowywany w repozytorium projektu.
 - Aktualizacja wersji dokumentu wymaga zgody kierownika projektu i prowadzącego.
 - Każdy członek zespołu ma obowiązek zapoznać się z treścią karty i ją zaakceptować.
+
 
 
 
