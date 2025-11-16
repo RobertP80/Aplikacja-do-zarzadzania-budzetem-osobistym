@@ -46,7 +46,7 @@ Jednostka dydaktyczna: ??
 
 2. Cel projektu
 
-Celem projektu ABO jest stworzenie webowej aplikacji umożliwiającej użytkownikom::
+Celem projektu ABO jest stworzenie webowej aplikacji umożliwiającej użytkownikom:
 
 -monitorowanie wydatków i przychodów,
 
@@ -62,13 +62,25 @@ Aplikacja ma być nowoczesnym narzędziem wspierającym zarządzanie finansami o
 
 3. Uzasadnienie projektu
 
-Obecnie proces rezerwacji sal odbywa się drogą mailową lub telefoniczną, co prowadzi do:
+Wiele osób nie kontroluje regularnie swoich wydatków, co prowadzi do:
 
-- duplikowania rezerwacji,
-- braku przejrzystości kalendarza,
-- opóźnień w potwierdzaniu terminów.
+-braku świadomości finansowej,
 
-Projekt rozwiązuje te problemy poprzez automatyzację i centralizację rezerwacji w jednym systemie, zwiększając efektywność i przejrzystość zarządzania zasobami uczelni.
+-przekraczania comiesięcznych budżetów,
+
+-trudności w planowaniu oszczędności,
+
+-chaosu w zapisywaniu paragonów lub transakcji.
+
+Projekt zapewnia:
+
+-centralizację informacji finansowych w jednym miejscu,
+
+-przejrzyste wykresy i statystyki,
+
+-automatyzację analizy wydatków.
+
+Aplikacja pozwoli użytkownikom efektywnie zarządzać finansami i podejmować świadome decyzje.
 
 4. Zakres projektu
 
@@ -170,6 +182,7 @@ Prowadzący|mgr Wojciech Moniuszko|17.10.2025|___________
 - Dokument powinien być przechowywany w repozytorium projektu.
 - Aktualizacja wersji dokumentu wymaga zgody kierownika projektu i prowadzącego.
 - Każdy członek zespołu ma obowiązek zapoznać się z treścią karty i ją zaakceptować.
+
 
 
 
