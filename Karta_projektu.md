@@ -129,13 +129,13 @@ Dokumentalista|Urszula Sacha|Dokumentacja, raporty, prezentacja
 
 Kategoria|Narzędzie / Technologia|Cel zastosowania
 -----------------|-----------------------------------|----------------------------------------------------------
-Zarządzanie projektem|Jira, Trello|Planowanie sprintów, śledzenie zadań
-Repozytorium|GitHub|Kontrola wersji kodu
-Analiza i projektowanie|Visual Paradigm, Miro|Diagramy UML, mapa procesu
-Programowanie|Python (Django), HTML/CSS/Bootstrap|Implementacja aplikacji
-Baza danych|PostgreSQL|Przechowywanie danych o salach i rezerwacjach
-Dokumentacja|Word, Overleaf|Tworzenie dokumentacji technicznej
-Komunikacja|Teams, Discord|Spotkania zespołowe
+Zarządzanie projektem|Jira, Trello|Harmonogram, zadania
+Repozytorium|GitHub|Kontrola wersji
+Analiza i projektowanie|Visual Paradigm, Miro|Diagramy, procesy
+Programowanie|Python (Django), HTML/CSS/Bootstrap|Tworzenie aplikacji
+Baza danych|PostgreSQL|Dane transakcji i budżetów
+Dokumentacja|Word, Overleaf|Dokumentacja techniczna 
+Komunikacja|Teams, Discord|Spotkania i koordynacja 
 
 8. Harmonogram realizacji (10 spotkań)
 
@@ -189,6 +189,7 @@ Prowadzący|mgr Wojciech Moniuszko|17.10.2025|___________
 - Dokument powinien być przechowywany w repozytorium projektu.
 - Aktualizacja wersji dokumentu wymaga zgody kierownika projektu i prowadzącego.
 - Każdy członek zespołu ma obowiązek zapoznać się z treścią karty i ją zaakceptować.
+
 
 
 
