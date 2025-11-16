@@ -35,11 +35,11 @@ Zespół projektowy:
 
 Imię i nazwisko|Rola w projekcie|Zakres odpowiedzialności
 ----------------|------------------------------------------------|----------------------------------------------
-Robert Przybyła|Kierownik projektu|Planowanie, koordynacja, raportowanie postępów, kontakt z prowadzącym
+Robert Przybyła|Kierownik projektu|Planowanie, koordynacja, raportowanie postępów, kontakt z prowadzącym, prezentacja końcowa
 Arkadiusz Pytka|Analityk systemowy|Analiza wymagań, tworzenie przypadków użycia, diagramów UML
 Arkadiusz Pytka|Programista|Implementacja backendu (Django), integracja z bazą danych
-Piotr Sadowski|Tester|Opracowanie scenariuszy testowych, testy funkcjonalne i akceptacyjne
-Julia Malinowska|Dokumentalista|Redakcja dokumentacji projektowej, raporty, prezentacja końcowa
+Urszula Sacha|Tester|Opracowanie scenariuszy testowych, testy funkcjonalne i akceptacyjne
+Urszula Sacha|Dokumentalista|Redakcja dokumentacji projektowej, raporty
 
 Prowadzący: mgr Wojciech Moniuszko
 Jednostka dydaktyczna: ??
@@ -164,6 +164,7 @@ Prowadzący|mgr Wojciech Moniuszko|17.10.2025|___________
 - Dokument powinien być przechowywany w repozytorium projektu.
 - Aktualizacja wersji dokumentu wymaga zgody kierownika projektu i prowadzącego.
 - Każdy członek zespołu ma obowiązek zapoznać się z treścią karty i ją zaakceptować.
+
 
 
 
