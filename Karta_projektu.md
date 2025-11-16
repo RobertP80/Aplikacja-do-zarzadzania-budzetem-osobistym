@@ -141,14 +141,14 @@ Komunikacja|Teams, Discord|Spotkania i koordynacja
 
 Etap|Zakres|Czas realizacji|Rezultat
 ---|----------------------------------------------------|----------------|--------------------------------------
-1|Tworzenie zespołów, wybór tematu, karta projektu|Tydzień 1|Karta projektu, struktura zespołu
+1|Tworzenie zespółu, temat, karta projektu |Tydzień 1|Karta projektu
 2|Analiza wymagań|Tydzień 2|Dokument wymagań
-3|Projekt systemu – UML|Tydzień 3–4|Diagramy UML
+3|UML – projekt systemu|Tydzień 3–4|Diagramy UML
 4|Konfiguracja środowiska|Tydzień 4|Repozytorium, narzędzia
-5|Dokumentacja projektowa (I etap)|Tydzień 5|Projekt dokumentu
-6|Implementacja prototypu (I etap)|Tydzień 6–7|Pierwsza wersja aplikacji
+5|Dokumentacja projektowa (I etap)|Tydzień 5|Struktura dokumentacji
+6|Implementacja prototypu (I etap)|Tydzień 6–7|Bazowa wersja aplikacji
 7|Testowanie i poprawki|Tydzień 8|Raport testów
-8|Dokumentacja końcowa i prezentacja|Tydzień 9–10|Prezentacja, protokół odbioru
+8|Dokumentacja końcowa i prezentacja|Tydzień 9–10|Gotowy projekt, prezentacja
 
 9. Analiza ryzyka
 
@@ -189,6 +189,7 @@ Prowadzący|mgr Wojciech Moniuszko|17.10.2025|___________
 - Dokument powinien być przechowywany w repozytorium projektu.
 - Aktualizacja wersji dokumentu wymaga zgody kierownika projektu i prowadzącego.
 - Każdy członek zespołu ma obowiązek zapoznać się z treścią karty i ją zaakceptować.
+
 
 
 
