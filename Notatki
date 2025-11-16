@@ -87,4 +87,19 @@ Poza zakresem projektu:
 
 
 
+8. Harmonogram realizacji (10 spotkań)
+| Etap | Zakres                             | Czas realizacji | Rezultat                     |
+| ---- | ---------------------------------- | --------------- | ---------------------------- |
+| 1    | Zespół, temat, karta projektu      | Tydzień 1       | Karta projektu               |
+| 2    | Analiza wymagań                    | Tydzień 2       | Dokument wymagań             |
+| 3    | UML – projekt systemu              | Tydzień 3–4     | Diagramy UML                 |
+| 4    | Konfiguracja środowiska            | Tydzień 4       | Repozytorium, technologie    |
+| 5    | Dokumentacja projektowa (I etap)   | Tydzień 5       | Struktura dokumentacji       |
+| 6    | Implementacja prototypu (I etap)   | Tydzień 6–7     | Bazowa wersja aplikacji      |
+| 7    | Testowanie i poprawki              | Tydzień 8       | Raport testów                |
+| 8    | Dokumentacja końcowa i prezentacja | Tydzień 9–10    | Gotowy projekt i prezentacja |
+
+
+
+
 
