@@ -86,18 +86,27 @@ Aplikacja pozwoli użytkownikom efektywnie zarządzać finansami i podejmować �
 
 W zakresie projektu:
 
-- Opracowanie wymagań funkcjonalnych i niefunkcjonalnych.
-- Zaprojektowanie systemu z wykorzystaniem UML (Use Case, Class, Activity, Sequence).
-- Implementacja aplikacji webowej w technologii Django + Bootstrap.
-- Utworzenie relacyjnej bazy danych (PostgreSQL).
-- Stworzenie dokumentacji projektowej i technicznej.
-- Przeprowadzenie testów i prezentacji prototypu.
+-Określenie wymagań funkcjonalnych i niefunkcjonalnych.
+
+-Zaprojektowanie systemu (UML: Use Case, Activity, Class, Sequence).
+
+-Implementacja aplikacji webowej w Django + Bootstrap.
+
+-Stworzenie relacyjnej bazy danych PostgreSQL.
+
+-Generowanie wykresów (np. miesięczne wydatki).
+
+-Opracowanie dokumentacji projektowej i technicznej.
+
+-Testy funkcjonalne i przygotowanie prezentacji.
 
 Poza zakresem projektu:
 
-- Integracja z systemami dziekanatowymi.
-- Mobilna wersja natywna.
-- Integracja z uczelnianym LDAP-em.
+-Integracje z bankami (API PSD2).
+
+-Mobilna aplikacja natywna.
+
+-Funkcje automatycznego pobierania historii transakcji.
 
 5. Wymagania 
 
@@ -182,6 +191,7 @@ Prowadzący|mgr Wojciech Moniuszko|17.10.2025|___________
 - Dokument powinien być przechowywany w repozytorium projektu.
 - Aktualizacja wersji dokumentu wymaga zgody kierownika projektu i prowadzącego.
 - Każdy członek zespołu ma obowiązek zapoznać się z treścią karty i ją zaakceptować.
+
 
 
 
