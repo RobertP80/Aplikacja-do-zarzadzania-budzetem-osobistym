@@ -162,20 +162,31 @@ Nr|Ryzyko|Prawdopodobieństwo|Skutek|Działanie zapobiegawcze
 
 10. Kryteria sukcesu projektu
 
-- Wszystkie wymagania funkcjonalne zostały zaimplementowane.
-- Aplikacja uruchamia się lokalnie i działa poprawnie.
-- Dokumentacja zawiera pełny zestaw diagramów UML.
-- Testy akceptacyjne zakończone wynikiem pozytywnym.
-- Zespół zrealizował projekt w wyznaczonym czasie.
-- Projekt został pozytywnie oceniony przez prowadzącego.
+-Wszystkie wymagania funkcjonalne zaimplementowane.
+
+-Aplikacja uruchamia się lokalnie i działa poprawnie.
+
+-Użytkownik może dodawać i analizować transakcje.
+
+-Dokumentacja zawiera kompletny zestaw diagramów UML.
+
+-Testy akceptacyjne zakończone pozytywnie.
+
+-Projekt zrealizowany w wyznaczonym terminie.
+
+-Pozytywna ocena prowadzącego.
 
 11. Rezultaty projektu
 
-- Prototyp aplikacji webowej (SmartRoom).
-- Dokumentacja projektowa (wymagania, UML, testy).
-- Dokumentacja techniczna (instrukcja uruchomienia).
-- Prezentacja zespołowa (PowerPoint / PDF).
-- Raport końcowy i protokół zdawczo-odbiorczy.
+-Prototyp aplikacji webowej.
+
+-Dokumentacja projektowa (wymagania, UML, testy).
+
+-Dokumentacja techniczna (instrukcja uruchomienia).
+
+-Prezentacja końcowa.
+
+-Raport końcowy i protokół odbioru.
 
 12. Akceptacja projektu
 
@@ -189,6 +200,7 @@ Prowadzący|mgr Wojciech Moniuszko|17.10.2025|___________
 - Dokument powinien być przechowywany w repozytorium projektu.
 - Aktualizacja wersji dokumentu wymaga zgody kierownika projektu i prowadzącego.
 - Każdy członek zespołu ma obowiązek zapoznać się z treścią karty i ją zaakceptować.
+
 
 
 
