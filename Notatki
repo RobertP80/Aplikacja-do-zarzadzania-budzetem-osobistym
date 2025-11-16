@@ -56,5 +56,20 @@ Poza zakresem projektu:
 | **Funkcjonalne**    | Dodawanie/edycja/usuwanie transakcji, kategorie wydatków, budżety miesięczne, wykresy, rejestracja/logowanie, raporty PDF. |
 | **Niefunkcjonalne** | Czas odpowiedzi ≤ 3 sekundy, dostępność 99%, responsywność UI.                                                             |
 | **Interfejsowe**    | Interfejs webowy HTML5/CSS3/Bootstrap.                                                                                     |
-| **Bezpieczeństwo**  | Logowanie z szyfrowaniem haseł (SHA256), role (użytkownik/admin), walidacja danych.                                        |
+| **Bezpieczeństwo**  | Logowanie z szyfrowaniem haseł (SHA256), role (użytkownik/admin), walidacja danych.  
+
+
+
+
+
+6. Zespół projektowy i role
+| **Rola**           | **Osoba**          | **Odpowiedzialność**              |
+| ------------------ | ------------------ | --------------------------------- |
+| Kierownik projektu | Anna Nowak         | Harmonogram, raporty, koordynacja |
+| Analityk           | Michał Kamiński    | Wymagania, UML, analiza ryzyk     |
+| Programista        | Karolina Zielińska | Backend, baza danych              |
+| Tester             | Piotr Sadowski     | Testy i raportowanie              |
+| Dokumentalista     | Julia Malinowska   | Dokumentacja i prezentacja        |
+
+|
 
