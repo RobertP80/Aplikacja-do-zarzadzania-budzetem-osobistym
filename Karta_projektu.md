@@ -8,7 +8,7 @@ Karta projektu to pierwszy oficjalny dokument projektowy, który opisuje jego po
 |---------------------|-------------------------------------------------|--------------------------------------|
 |1. Tytuł projektu|Nazwa projektu i akronim|„Aplikacja do zarządzania budżetem osobistym”|
 |2. Cel projektu|Co projekt ma osiągnąć i dlaczego|„Mobilna aplikacja pozwalająca analizować wydatki i przychody użytkownika.”
-|3. Uzasadnienie biznesowe / edukacyjne|Dlaczego projekt jest potrzebny|„Obecnie rezerwacje odbywają się e-mailowo. System poprawi efektywność i przejrzystość procesu.”|
+|3. Uzasadnienie biznesowe / edukacyjne|Dlaczego projekt jest potrzebny|„Projekt „Aplikacja do zarządzania budżetem osobistym” odpowiada na rosnącą potrzebę łatwego kontrolowania wydatków i planowania finansów. Umożliwia użytkownikom monitorowanie budżetu, analizowanie nawyków zakupowych i podejmowanie bardziej świadomych decyzji. Ma również wartość edukacyjną, wspierając rozwój kompetencji finansowych poprzez praktyczne zastosowanie.”|
 |4. Zakres projektu|Co wchodzi w zakres i co jest poza zakresem|„W zakresie: rezerwacja, kalendarz, powiadomienia; poza zakresem: integracja z systemem ERP uczelni.”|
 |5. Główne wymagania|Wstępna lista funkcjonalności|„Użytkownik może wyszukać salę, dokonać rezerwacji, otrzymać potwierdzenie e-mail.”|
 |6. Zespół projektowy i role|Lista członków i ich funkcji|„Kierownik – A. Nowak, Analityk – B. Kowalska, Programista – C. Wiśniewski, Tester – D. Maj.”|
@@ -164,4 +164,5 @@ Prowadzący|mgr Wojciech Moniuszko|17.10.2025|___________
 - Dokument powinien być przechowywany w repozytorium projektu.
 - Aktualizacja wersji dokumentu wymaga zgody kierownika projektu i prowadzącego.
 - Każdy członek zespołu ma obowiązek zapoznać się z treścią karty i ją zaakceptować.
+
 
