@@ -10,7 +10,7 @@ Karta projektu to pierwszy oficjalny dokument projektowy, który opisuje jego po
 |2. Cel projektu|Co projekt ma osiągnąć i dlaczego|„Mobilna aplikacja pozwalająca analizować wydatki i przychody użytkownika.”
 |3. Uzasadnienie biznesowe / edukacyjne|Dlaczego projekt jest potrzebny|„Projekt „Aplikacja do zarządzania budżetem osobistym” odpowiada na rosnącą potrzebę łatwego kontrolowania wydatków i planowania finansów. Umożliwia użytkownikom monitorowanie budżetu, analizowanie nawyków zakupowych i podejmowanie bardziej świadomych decyzji. Ma również wartość edukacyjną, wspierając rozwój kompetencji finansowych poprzez praktyczne zastosowanie.”|
 |4. Zakres projektu|Co wchodzi w zakres i co jest poza zakresem|„Zakres projektu obejmuje stworzenie podstawowej wersji aplikacji do zarządzania budżetem osobistym, wraz z funkcjami dodawania transakcji, ich kategoryzacji oraz prezentacji prostych statystyk. Poza zakresem znajdują się integracje z bankami, prognozowanie finansowe oraz rozszerzone wersje wieloplatformowe.”|
-|5. Główne wymagania|Wstępna lista funkcjonalności|„Użytkownik może wyszukać salę, dokonać rezerwacji, otrzymać potwierdzenie e-mail.”|
+|5. Główne wymagania|Wstępna lista funkcjonalności|„Rejestracja/logowanie, zarządzanie transakcjami, wykresy miesięcznych wydatków, alerty limitów budżetu.”|
 |6. Zespół projektowy i role|Lista członków i ich funkcji|„Kierownik – A. Nowak, Analityk – B. Kowalska, Programista – C. Wiśniewski, Tester – D. Maj.”|
 |7. Zasoby i narzędzia|Technologie, środowisko, repozytorium, narzędzia komunikacji|„GitHub, Jira, Miro, Python Django, PostgreSQL.”|
 |8. Harmonogram wstępny|Etapy realizacji projektu|„Analiza wymagań (1–2 tydz.), Projektowanie (3–4 tydz.), Implementacja (5–7 tydz.), Testy (8 tydz.), Prezentacja (10 tydz.)”|
@@ -164,6 +164,7 @@ Prowadzący|mgr Wojciech Moniuszko|17.10.2025|___________
 - Dokument powinien być przechowywany w repozytorium projektu.
 - Aktualizacja wersji dokumentu wymaga zgody kierownika projektu i prowadzącego.
 - Każdy członek zespołu ma obowiązek zapoznać się z treścią karty i ją zaakceptować.
+
 
 
 
