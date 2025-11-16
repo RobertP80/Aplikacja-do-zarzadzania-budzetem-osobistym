@@ -12,7 +12,7 @@ Karta projektu to pierwszy oficjalny dokument projektowy, który opisuje jego po
 |4. Zakres projektu|Co wchodzi w zakres i co jest poza zakresem|„Zakres projektu obejmuje stworzenie podstawowej wersji aplikacji do zarządzania budżetem osobistym, wraz z funkcjami dodawania transakcji, ich kategoryzacji oraz prezentacji prostych statystyk. Poza zakresem znajdują się integracje z bankami, prognozowanie finansowe oraz rozszerzone wersje wieloplatformowe.”|
 |5. Główne wymagania|Wstępna lista funkcjonalności|„Rejestracja i logowanie, zarządzanie transakcjami, wykresy miesięcznych wydatków, alerty limitów budżetu.”|
 |6. Zespół projektowy i role|Lista członków i ich funkcji|„Kierownik – U. Sacha, Analityk – A. Pytka, Programista – A. Pytka, Tester – R. Przybyła.”|
-|7. Zasoby i narzędzia|Technologie, środowisko, repozytorium, narzędzia komunikacji|„GitHub, Jira, Miro, Python Django, PostgreSQL.”|
+|7. Zasoby i narzędzia|Technologie, środowisko, repozytorium, narzędzia komunikacji|„php, html, java script.”|
 |8. Harmonogram wstępny|Etapy realizacji projektu|„Analiza wymagań (1–2 tydz.), Projektowanie (3–4 tydz.), Implementacja (5–7 tydz.), Testy (8 tydz.), Prezentacja (10 tydz.)”|
 |9. Ryzyka i działania zapobiegawcze|Potencjalne zagrożenia i sposoby ich ograniczenia|„Brak komunikacji w zespole → cotygodniowe spotkania online.”|
 |10. Oczekiwane rezultaty (produkty projektu)|Co powstanie na koniec|„Działający prototyp aplikacji + pełna dokumentacja projektowa.”|
@@ -164,6 +164,7 @@ Prowadzący|mgr Wojciech Moniuszko|17.10.2025|___________
 - Dokument powinien być przechowywany w repozytorium projektu.
 - Aktualizacja wersji dokumentu wymaga zgody kierownika projektu i prowadzącego.
 - Każdy członek zespołu ma obowiązek zapoznać się z treścią karty i ją zaakceptować.
+
 
 
 
