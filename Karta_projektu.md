@@ -17,7 +17,7 @@ Karta projektu to pierwszy oficjalny dokument projektowy, który opisuje jego po
 |9. Ryzyka i działania zapobiegawcze|Potencjalne zagrożenia i sposoby ich ograniczenia|„Brak doświadczenia → szkolenie; opóźnienia → cotygodniowe spotkania.”|
 |10. Oczekiwane rezultaty (produkty projektu)|Co powstanie na koniec|„Działający prototyp aplikacji + pełna dokumentacja projektowa, diagramy UML.”|
 |11. Kryteria sukcesu|Jak zostanie oceniony sukces projektu|„Aplikacja działa w przeglądarce, dokumentacja zawiera diagramy UML.”|
-|12. Akceptacja projektu|Podpisy|„Zatwierdza: prowadzący, kierownik projektu.”|
+|12. Akceptacja projektu|Podpisy|„Zatwierdza: kierownik projektu.”|
 
 
 ## KARTA PROJEKTU - przykład
@@ -164,6 +164,7 @@ Prowadzący|mgr Wojciech Moniuszko|17.10.2025|___________
 - Dokument powinien być przechowywany w repozytorium projektu.
 - Aktualizacja wersji dokumentu wymaga zgody kierownika projektu i prowadzącego.
 - Każdy członek zespołu ma obowiązek zapoznać się z treścią karty i ją zaakceptować.
+
 
 
 
