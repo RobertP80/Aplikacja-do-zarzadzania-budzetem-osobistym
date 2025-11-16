@@ -119,11 +119,11 @@ Bezpieczeństwo|Logowanie użytkowników z użyciem haseł SHA256, role: użytko
 
 Rola|Osoba|Odpowiedzialność
 --------------|-------------------------|-----------------------------------------------------------------------
-Kierownik projektu|Anna Nowak|Harmonogram, raporty, koordynacja
-Analityk|Michał Kamiński|Wymagania, UML, analiza ryzyk
-Programista|Karolina Zielińska|Backend, baza danych
-Tester|Piotr Sadowski|Testy, raporty błędów
-Dokumentalista|Julia Malinowska|Dokumentacja, raporty, prezentacja
+Kierownik projektu|Robert Przybyła|Harmonogram, raporty, koordynacja
+Analityk|Arkadiusz Pytka|Wymagania, diagramy UML
+Programista|Arkadiusz Pytka|Backend, baza danych
+Tester|Urszula Sacha|Testy, raporty błędów
+Dokumentalista|Urszula Sacha|Dokumentacja, raporty, prezentacja
 
 7. Zasoby i narzędzia
 
@@ -189,6 +189,7 @@ Prowadzący|mgr Wojciech Moniuszko|17.10.2025|___________
 - Dokument powinien być przechowywany w repozytorium projektu.
 - Aktualizacja wersji dokumentu wymaga zgody kierownika projektu i prowadzącego.
 - Każdy członek zespołu ma obowiązek zapoznać się z treścią karty i ją zaakceptować.
+
 
 
 
