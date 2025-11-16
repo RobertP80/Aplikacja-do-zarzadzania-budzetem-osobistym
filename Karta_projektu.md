@@ -24,7 +24,7 @@ Karta projektu to pierwszy oficjalny dokument projektowy, który opisuje jego po
 1. Informacje ogólne
 
 Tytuł projektu:
-SmartRoom – System Rezerwacji Sal Uczelnianych
+„Aplikacja do zarządzania budżetem osobistym”
 
 Akronim projektu:
 SRSU
@@ -164,6 +164,7 @@ Prowadzący|mgr Wojciech Moniuszko|17.10.2025|___________
 - Dokument powinien być przechowywany w repozytorium projektu.
 - Aktualizacja wersji dokumentu wymaga zgody kierownika projektu i prowadzącego.
 - Każdy członek zespołu ma obowiązek zapoznać się z treścią karty i ją zaakceptować.
+
 
 
 
