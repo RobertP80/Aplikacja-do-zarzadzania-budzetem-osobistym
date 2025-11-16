@@ -35,9 +35,9 @@ Zespół projektowy:
 
 Imię i nazwisko|Rola w projekcie|Zakres odpowiedzialności
 ----------------|------------------------------------------------|----------------------------------------------
-Anna Nowak|Kierownik projektu|Planowanie, koordynacja, raportowanie postępów, kontakt z prowadzącym
-Michał Kamiński|Analityk systemowy|Analiza wymagań, tworzenie przypadków użycia, diagramów UML
-Karolina Zielińska|Programista|Implementacja backendu (Django), integracja z bazą danych
+Robert Przybyła|Kierownik projektu|Planowanie, koordynacja, raportowanie postępów, kontakt z prowadzącym
+Arkadiusz Pytka|Analityk systemowy|Analiza wymagań, tworzenie przypadków użycia, diagramów UML
+Arkadiusz Pytka|Programista|Implementacja backendu (Django), integracja z bazą danych
 Piotr Sadowski|Tester|Opracowanie scenariuszy testowych, testy funkcjonalne i akceptacyjne
 Julia Malinowska|Dokumentalista|Redakcja dokumentacji projektowej, raporty, prezentacja końcowa
 
@@ -164,6 +164,7 @@ Prowadzący|mgr Wojciech Moniuszko|17.10.2025|___________
 - Dokument powinien być przechowywany w repozytorium projektu.
 - Aktualizacja wersji dokumentu wymaga zgody kierownika projektu i prowadzącego.
 - Każdy członek zespołu ma obowiązek zapoznać się z treścią karty i ją zaakceptować.
+
 
 
 
