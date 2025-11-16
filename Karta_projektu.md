@@ -110,10 +110,10 @@ Poza zakresem projektu:
 
 Typ | Opis
 ---------------------------|-----------------------------------------------------------------------------------
-Funkcjonalne|Rezerwacja sal przez użytkowników, logowanie, wyszukiwanie według daty i sali, powiadomienia e-mail.
-Niefunkcjonalne|Wydajność: max. czas odpowiedzi 3 sekundy. Dostępność: 99%. Responsywność interfejsu.
-Interfejsowe|Przeglądarkowy interfejs webowy w technologii HTML5/CSS3.
-Bezpieczeństwo|Logowanie użytkowników z użyciem haseł SHA256, role: użytkownik/admin.
+Funkcjonalne|Dodawanie/edycja/usuwanie transakcji, kategorie wydatków, budżety miesięczne, wykresy, rejestracja/logowanie, raporty PDF.
+NiefunkcjonalneCzas odpowiedzi ≤ 3 sekundy, dostępność 99%, responsywność interfejsu.
+Interfejsowe|Interfejs webowy HTML5/CSS3/Bootstrap.
+Bezpieczeństwo|Logowanie z szyfrowaniem haseł (SHA256), role (użytkownik/admin), walidacja danych.
 
 6. Zespół projektowy i role
 
@@ -189,6 +189,7 @@ Prowadzący|mgr Wojciech Moniuszko|17.10.2025|___________
 - Dokument powinien być przechowywany w repozytorium projektu.
 - Aktualizacja wersji dokumentu wymaga zgody kierownika projektu i prowadzącego.
 - Każdy członek zespołu ma obowiązek zapoznać się z treścią karty i ją zaakceptować.
+
 
 
 
