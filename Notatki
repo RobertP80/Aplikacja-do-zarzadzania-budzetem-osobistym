@@ -20,3 +20,30 @@ Poza zakresem znajdują się integracje z bankami, prognozowanie finansowe oraz 
 
 11. Kryteria sukcesu	Jak zostanie oceniony sukces projektu	„Aplikacja działa w przeglądarce, dokumentacja zawiera wszystkie diagramy UML.”
 12. Akceptacja projektu	Podpisy	„Zatwierdza: prowadzący, kierownik projektu.”
+
+
+
+4. Zakres projektu
+W zakresie projektu:
+
+-Określenie wymagań funkcjonalnych i niefunkcjonalnych.
+
+-Zaprojektowanie systemu (UML: Use Case, Activity, Class, Sequence).
+
+-Implementacja aplikacji webowej w Django + Bootstrap.
+
+-Stworzenie relacyjnej bazy danych PostgreSQL.
+
+-Generowanie wykresów (np. miesięczne wydatki).
+
+-Opracowanie dokumentacji projektowej i technicznej.
+
+-Testy funkcjonalne i przygotowanie prezentacji.
+
+Poza zakresem projektu:
+
+-Integracje z bankami (API PSD2).
+
+-Mobilna aplikacja natywna.
+
+-Funkcje automatycznego pobierania historii transakcji.
