@@ -110,5 +110,31 @@ Poza zakresem projektu:
 | 5  | Niewystarczająca dokumentacja   | Niskie             | Wysoki | Stała współpraca z dokumentalistą    |
 
 
+10. Kryteria sukcesu projektu
 
+-Wszystkie wymagania funkcjonalne zaimplementowane.
+
+-Aplikacja uruchamia się lokalnie i działa poprawnie.
+
+-Użytkownik może dodawać i analizować transakcje.
+
+-Dokumentacja zawiera kompletny zestaw diagramów UML.
+
+-Testy akceptacyjne zakończone pozytywnie.
+
+-Projekt zrealizowany w wyznaczonym terminie.
+
+-Pozytywna ocena prowadzącego.
+
+11. Rezultaty projektu
+
+-Prototyp aplikacji webowej.
+
+-Dokumentacja projektowa (wymagania, UML, testy).
+
+-Dokumentacja techniczna (instrukcja uruchomienia).
+
+-Prezentacja końcowa.
+
+-Raport końcowy i protokół odbioru.
 
