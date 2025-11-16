@@ -1,3 +1,4 @@
+
 - Cały projekt ma być prowadzony na GitHub'ie lub GitLab (panu chodzi o to, aby rejestrować naszą aktywność). 
 - Założyc konnto na GitHubie - jestem w grupie z 2 kolegami (mamy założona grupę na Messengerze).
 - Karta projektu tez ma być wrzucona na hithuba przez kierownika projektu.
@@ -71,5 +72,19 @@ Poza zakresem projektu:
 | Tester             | Piotr Sadowski     | Testy i raportowanie              |
 | Dokumentalista     | Julia Malinowska   | Dokumentacja i prezentacja        |
 
-|
+
+
+7. Zasoby i narzędzia
+| **Kategoria**           | **Narzędzie / Technologia**         | **Cel zastosowania**       |
+| ----------------------- | ----------------------------------- | -------------------------- |
+| Zarządzanie projektem   | Jira, Trello                        | Harmonogram, zadania       |
+| Repozytorium            | GitHub                              | Kontrola wersji            |
+| Analiza i projektowanie | Miro, Visual Paradigm               | Diagramy, procesy          |
+| Programowanie           | Python (Django), HTML/CSS/Bootstrap | Tworzenie aplikacji        |
+| Baza danych             | PostgreSQL                          | Dane transakcji i budżetów |
+| Dokumentacja            | Word, Overleaf                      | Dokumentacja techniczna    |
+| Komunikacja             | Teams, Discord                      | Spotkania i koordynacja    |
+
+
+
 
