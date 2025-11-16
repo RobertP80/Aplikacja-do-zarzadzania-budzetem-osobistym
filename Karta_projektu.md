@@ -46,7 +46,7 @@ Jednostka dydaktyczna: ??
 
 2. Cel projektu
 
-Celem projektu SmartRoom jest opracowanie i wdrożenie webowej aplikacji do rezerwacji sal uczelnianych, umożliwiającej:
+Celem projektu ABO jest opracowanie i wdrożenie webowej aplikacji do rezerwacji sal uczelnianych, umożliwiającej:
 
 - studentom i wykładowcom szybkie wyszukiwanie dostępnych sal,
 - rezerwowanie terminów zajęć, konsultacji lub spotkań,
@@ -164,6 +164,7 @@ Prowadzący|mgr Wojciech Moniuszko|17.10.2025|___________
 - Dokument powinien być przechowywany w repozytorium projektu.
 - Aktualizacja wersji dokumentu wymaga zgody kierownika projektu i prowadzącego.
 - Każdy członek zespołu ma obowiązek zapoznać się z treścią karty i ją zaakceptować.
+
 
 
 
