@@ -37,7 +37,7 @@ Imię i nazwisko|Rola w projekcie|Zakres odpowiedzialności
 ----------------|------------------------------------------------|----------------------------------------------
 Robert Przybyła|Kierownik projektu|Planowanie, koordynacja, raportowanie postępów, kontakt z prowadzącym, prezentacja końcowa
 Arkadiusz Pytka|Analityk systemowy|Analiza wymagań, tworzenie przypadków użycia, diagramów UML
-Arkadiusz Pytka|Programista|Implementacja backendu (Django), integracja z bazą danych
+Arkadiusz Pytka|Programista|Implementacja backendu, integracja z bazą danych
 Urszula Sacha|Tester|Opracowanie scenariuszy testowych, testy funkcjonalne i akceptacyjne
 Urszula Sacha|Dokumentalista|Redakcja dokumentacji projektowej, raporty
 
@@ -113,7 +113,7 @@ Typ | Opis
 Funkcjonalne|Dodawanie/edycja/usuwanie transakcji, kategorie wydatków, budżety miesięczne, wykresy, rejestracja/logowanie, raporty PDF.
 Niefunkcjonalne|Czas odpowiedzi ≤ 3 sekundy, dostępność 99%, responsywność interfejsu.
 Interfejsowe|Interfejs webowy HTML5/CSS3/Bootstrap.
-Bezpieczeństwo|Logowanie z szyfrowaniem haseł (SHA256), role (użytkownik/admin), walidacja danych.
+Bezpieczeństwo|Logowanie z szyfrowaniem haseł, role (użytkownik/admin), walidacja danych.
 
 6. Zespół projektowy i role
 
@@ -134,7 +134,7 @@ Repozytorium|GitHub|Kontrola wersji
 Analiza i projektowanie|Visual Paradigm, Miro|Diagramy, procesy
 Programowanie|PHP, HTML/CSS/Bootstrap|Tworzenie aplikacji
 Baza danych|SQLite|Dane transakcji i budżetów
-Dokumentacja|Word, Overleaf|Dokumentacja techniczna 
+Dokumentacja|Word, Overleaf - edytor online|Dokumentacja techniczna 
 Komunikacja|Teams, Discord|Spotkania i koordynacja 
 
 8. Harmonogram realizacji (10 spotkań)
@@ -155,7 +155,7 @@ Etap|Zakres|Czas realizacji|Rezultat
 Nr|Ryzyko|Prawdopodobieństwo|Skutek|Działanie zapobiegawcze
 --|---------------------------|-----------|-----------------------------------|---------------------------------
 1|Opóźnienia w pracy zespołu|Średnie|Wysoki|Spotkania tygodniowe, śledzenie postępów w Jira
-2|Brak doświadczenia w Django|Wysokie|Średni|Mini-szkolenie i podział modułów według trudności
+2|Brak doświadczenia w PHP|Wysokie|Średni|Mini-szkolenie i podział modułów według trudności
 3|Konflikty w zespole|Niskie|Średni|Jasny podział ról, komunikacja na Discord
 4|Utrata danych|Niskie|Wysoki|Regularne kopie w GitHub
 5|Niedostarczenie dokumentacji|Niskie|Wysoki|Wczesne rozpoczęcie redakcji przez dokumentalistę
@@ -200,6 +200,7 @@ Prowadzący|mgr Wojciech Moniuszko|16.11.2025|___________
 - Dokument powinien być przechowywany w repozytorium projektu.
 - Aktualizacja wersji dokumentu wymaga zgody kierownika projektu i prowadzącego.
 - Każdy członek zespołu ma obowiązek zapoznać się z treścią karty i ją zaakceptować.
+
 
 
 
