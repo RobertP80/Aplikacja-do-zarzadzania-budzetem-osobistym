@@ -1,0 +1,92 @@
+Opis aplikacji – prezentacja projektu ABO / Aplikacja do zarządzania budżetem osobistym”
+________________________________________
+1. Koncept systemu
+Projekt zakłada stworzenie mobilnej / webowej aplikacji umożliwiającej użytkownikom świadome zarządzanie finansami osobistymi.
+System pozwala na:
+•	rejestrowanie przychodów i wydatków,
+•	przypisywanie transakcji do kategorii,
+•	ustalanie budżetów miesięcznych oraz celów oszczędnościowych,
+•	analizę danych finansowych w formie statystyk i wykresów,
+•	otrzymywanie powiadomień o przekroczeniu limitów,
+•	przegląd salda i podstawowych informacji finansowych.
+Cel aplikacji: ułatwienie codziennej kontroli nad finansami, zwiększenie świadomości finansowej użytkowników oraz wsparcie w realizacji długoterminowych celów (np. oszczędności na wakacje, zakup sprzętu) 
+2. Analiza wymagań
+Aplikacja ma wspierać następujące potrzeby użytkownika:
+•	Dodaje wydatki z podaniem kwoty, daty, kategorii i opisu, aby śledzić, na co wydaję pieniądze.
+•	Dodaje przychody, aby widzieć saldo i kontrolować budżet.
+•	Przegląda listę transakcji z możliwością filtrowania po dacie, typie i kategorii.
+•	Ustawia budżet miesięczny i cele oszczędnościowe.
+•	Przegląda wykresy wydatków i udział poszczególnych kategorii, aby lepiej rozumieć swoje nawyki finansowe.
+•	Otrzymuje powiadomienia o przekroczeniu ustalonych limitów.
+3. Wymagania funkcjonalne
+Funkcjonalności podstawowe
+Zarządzanie finansami
+•	Dodawanie wydatków (kwota, data, kategoria, opis).
+•	Dodawanie przychodów (kwota, data, kategoria, opis).
+•	Edycja i usuwanie transakcji.
+•	Przegląd transakcji z filtrami (daty, typ, kategoria).
+•	Zarządzanie kategoriami (wybór z listy).
+Budżet i statystyki
+•	Ustawienie budżetu miesięcznego.
+•	Ustawienie celów oszczędnościowych (kwota docelowa, data, nazwa celu).
+•	Przegląd podstawowych statystyk: suma przychodów, suma wydatków, saldo.
+•	Przegląd wykresów (wydatki wg kategorii, wydatki na osi czasu).
+🔔 Powiadomienia i profil
+•	Zarządzanie powiadomieniami (włączanie/wyłączanie, ustawienie progu).
+•	Edycja profilu użytkownika (zmiana danych, usuwanie konta).
+________________________________________
+4. Wymagania niefunkcjonalne
+🔒 Bezpieczeństwo
+•	Hasła przechowywane w formie hashy (np. SHA-256 / bcrypt).
+•	Dane osobowe zgodne z RODO.
+⚡ Wydajność
+•	Dodanie transakcji ≤ 2 sekundy.
+•	Generowanie wykresów ≤ 3 sekundy dla typowego zestawu danych.
+📱 Dostępność
+•	Interfejs dostosowany do urządzeń mobilnych.
+•	Czytelne kolory, widoczne informacje o saldzie, wyraźne przyciski.
+•	Obsługa urządzeń z Androidem (od wersji 10.0 wzwyż).
+🧩 Niezawodność
+•	Stabilna praca aplikacji na wspieranych urządzeniach.
+•	Minimalizacja ryzyka utraty danych (zapisywanie po każdej transakcji).
+________________________________________
+5. Diagram przypadków użycia – opis
+Diagram obejmuje cztery główne obszary funkcjonalne:
+1.	Logowanie i rejestracja użytkownika
+o	Rejestracja
+o	Logowanie
+o	Zmiana hasła
+2.	Zarządzanie transakcjami (przychody i wydatki)
+o	Dodawanie / edycja / usuwanie transakcji
+o	Kategoryzacja
+3.	Analiza i kontrola budżetu
+o	Wyświetlanie statystyk
+o	Tworzenie budżetów i celów
+o	Przegląd wykresów
+4.	Powiadomienia i profil
+o	Zarządzanie powiadomieniami
+o	Edycja danych użytkownika
+(Jeśli chcesz, przygotuję Ci gotowy graficzny diagram UML.)
+________________________________________
+6. Analiza wymagań (podsumowanie)
+Obszar	Potrzeby użytkownika	Konsekwencje projektowe
+Rejestracja i bezpieczeństwo	Bezpieczny dostęp do danych	Szyfrowanie, RODO, walidacja
+Zarządzanie transakcjami	Szybkie dodawanie i filtrowanie	Intuicyjny interfejs, wydajne zapytania
+Budżetowanie	Kontrola wydatków	Funkcja limitów, alerty
+Wizualizacja danych	Zrozumiałe wykresy i statystyki	Integracja z generatorami wykresów
+Dostępność	Mobile-first	Responsywność UI
+Niezawodność	Brak utraty danych	Automatyczne zapisywanie i backup
+________________________________________
+✅ Gotowy materiał do prezentacji
+Ten tekst spełnia wymagania instrukcji:
+✔ koncept systemu
+✔ wymagania funkcjonalne
+✔ wymagania niefunkcjonalne
+✔ dostępność
+✔ diagram przypadków użycia (opis)
+✔ analiza wymagań
+✔ wykorzystanie treści z karty projektu 
+Karta_projektu
+
+✔ zgodność ze screenami
+
