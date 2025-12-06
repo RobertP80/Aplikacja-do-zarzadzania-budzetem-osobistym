@@ -31,22 +31,22 @@ Budżet i statystyki
 •	Ustawienie celów oszczędnościowych (kwota docelowa, data, nazwa celu).
 •	Przegląd podstawowych statystyk: suma przychodów, suma wydatków, saldo.
 •	Przegląd wykresów (wydatki wg kategorii, wydatki na osi czasu).
-🔔 Powiadomienia i profil
+Powiadomienia i profil
 •	Zarządzanie powiadomieniami (włączanie/wyłączanie, ustawienie progu).
 •	Edycja profilu użytkownika (zmiana danych, usuwanie konta).
 ________________________________________
 4. Wymagania niefunkcjonalne
-🔒 Bezpieczeństwo
+Bezpieczeństwo
 •	Hasła przechowywane w formie hashy (np. SHA-256 / bcrypt).
 •	Dane osobowe zgodne z RODO.
-⚡ Wydajność
+Wydajność
 •	Dodanie transakcji ≤ 2 sekundy.
 •	Generowanie wykresów ≤ 3 sekundy dla typowego zestawu danych.
-📱 Dostępność
+Dostępność
 •	Interfejs dostosowany do urządzeń mobilnych.
 •	Czytelne kolory, widoczne informacje o saldzie, wyraźne przyciski.
 •	Obsługa urządzeń z Androidem (od wersji 10.0 wzwyż).
-🧩 Niezawodność
+Niezawodność
 •	Stabilna praca aplikacji na wspieranych urządzeniach.
 •	Minimalizacja ryzyka utraty danych (zapisywanie po każdej transakcji).
 ________________________________________
