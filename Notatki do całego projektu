@@ -1,1 +1,45 @@
 Tutaj będziemy zamieszczać informacje/notatki do dalszej części projektu.
+
+Specyfikacja wymagań – Aplikacja do Zarządzania Budżetem Osobistym
+Cel systemu
+Aplikacja do zarządzania budżetem osobistym umożliwia kontrolowanie wydatków, przychodów oraz planowanie finansów. Użytkownik może monitorować saldo, ustawiać budżety i odbierać powiadomienia o przekroczeniach.
+Interesariusze
+- Użytkownik końcowy: szybkie dodawanie wydatków, raporty, powiadomienia.
+- Administrator: zarządzanie użytkownikami, dostęp do logów.
+- Dział IT: stabilność, monitoring.
+- Sponsor: raporty efektywności, skalowalność.
+- API bankowe: bezpieczna integracja.
+Wymagania funkcjonalne
+F1 – Dodawanie wydatku (Must)
+F2 – Dodawanie przychodu (Must)
+F3 – Wyświetlanie salda (Must)
+F4 – Ustawianie budżetów (Should)
+F5 – Powiadomienia o przekroczeniu budżetu (Should)
+F6 – Historia transakcji (Must)
+F7 – Raporty miesięczne/roczne (Should)
+F8 – Kategorie wydatków (Must)
+F9 – Import CSV (Could)
+F10 – Integracja bankowa (Could)
+F11 – Zarządzanie kontem (Must)
+User Stories
+– Jako użytkownik chcę dodać wydatek, aby kontrolować budżet.
+– Jako użytkownik chcę otrzymywać powiadomienia o przekroczeniach.
+– Jako administrator chcę przeglądać logi systemu.
+– Jako użytkownik chcę generować raporty miesięczne.
+Przypadki użycia
+UC1 – Dodanie wydatku:
+1. Użytkownik wybiera „Dodaj wydatek”.
+2. System wyświetla formularz.
+3. Użytkownik podaje dane.
+4. System zapisuje i aktualizuje saldo.
+
+UC2 – Generowanie raportu:
+1. Użytkownik wybiera „Raporty”.
+2. Wybiera okres.
+3. System generuje wykresy i podsumowanie.
+Wymagania niefunkcjonalne
+- Bezpieczeństwo: TLS, RODO, haszowane hasła.
+- Wydajność: <1s odpowiedzi, raport <3s.
+- Dostępność: SLA 99%, kopie zapasowe.
+- Użyteczność: WCAG 2.1 AA.
+- Integracja: API REST, import/eksport CSV.
