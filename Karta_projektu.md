@@ -27,7 +27,7 @@ Tytuł projektu:
 „Aplikacja do zarządzania budżetem osobistym”
 
 Akronim projektu:
-ABO
+CP
 
 Data utworzenia: 16.11.2025
 Wersja dokumentu: 1.0
@@ -46,7 +46,7 @@ Jednostka dydaktyczna: ??
 
 2. Cel projektu
 
-Celem projektu ABO jest stworzenie webowej aplikacji umożliwiającej użytkownikom:
+Celem projektu CASH PILOT jest stworzenie webowej aplikacji umożliwiającej użytkownikom:
 
 -monitorowanie wydatków i przychodów,
 
@@ -110,7 +110,7 @@ Poza zakresem projektu:
 
 Typ | Opis
 ---------------------------|-----------------------------------------------------------------------------------
-Funkcjonalne|Dodawanie/edycja/usuwanie transakcji, kategorie wydatków, budżety miesięczne, wykresy, rejestracja/logowanie, raporty PDF.
+Funkcjonalne|Dodawanie/edycja/usuwanie transakcji, kategorie wydatków, budżety miesięczne, wykresy, raporty PDF.
 Niefunkcjonalne|Czas odpowiedzi ≤ 3 sekundy, dostępność 99%, responsywność interfejsu.
 Interfejsowe|Interfejs webowy HTML5/CSS3/Bootstrap.
 Bezpieczeństwo|Logowanie z szyfrowaniem haseł, role (użytkownik/admin), walidacja danych.
@@ -200,6 +200,7 @@ Prowadzący|mgr Wojciech Moniuszko|16.11.2025|___________
 - Dokument powinien być przechowywany w repozytorium projektu.
 - Aktualizacja wersji dokumentu wymaga zgody kierownika projektu i prowadzącego.
 - Każdy członek zespołu ma obowiązek zapoznać się z treścią karty i ją zaakceptować.
+
 
 
 
