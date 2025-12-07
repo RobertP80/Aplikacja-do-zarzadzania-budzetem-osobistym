@@ -1,21 +1,21 @@
 ```mermaid
-usecaseDiagram
-    actor User as U
+flowchart LR
+  U[User / Użytkownik]
 
-    (Dodawanie transakcji)        as UC1
-    (Edycja i usuwanie transakcji) as UC2
-    (Przypisywanie kategorii)     as UC3
-    (Ustalanie budżetów)          as UC4
-    (Tworzenie celów oszczędnościowych) as UC5
-    (Analiza: statystyki i wykresy) as UC6
-    (Zarządzanie powiadomieniami) as UC7
-    (Edycja profilu i ustawień)   as UC8
+  UC1[(Dodawanie transakcji)]
+  UC2[(Edycja i usuwanie transakcji)]
+  UC3[(Przypisywanie kategorii)]
+  UC4[(Ustalanie budżetów)]
+  UC5[(Tworzenie celów oszczędnościowych)]
+  UC6[(Analiza: statystyki i wykresy)]
+  UC7[(Zarządzanie powiadomieniami)]
+  UC8[(Edycja profilu i ustawień)]
 
-    U --> UC1
-    U --> UC2
-    U --> UC3
-    U --> UC4
-    U --> UC5
-    U --> UC6
-    U --> UC7
-    U --> UC8
+  U --> UC1
+  U --> UC2
+  U --> UC3
+  U --> UC4
+  U --> UC5
+  U --> UC6
+  U --> UC7
+  U --> UC8
