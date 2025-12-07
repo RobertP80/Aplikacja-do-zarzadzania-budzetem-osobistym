@@ -61,10 +61,10 @@ o	Edycja danych użytkownika
 (Jeśli chcesz, przygotuję Ci gotowy graficzny diagram UML.)
 ________________________________________
 6. Analiza wymagań (podsumowanie)
-Obszar	Potrzeby użytkownika	Konsekwencje projektowe
-Rejestracja i bezpieczeństwo	Bezpieczny dostęp do danych	Szyfrowanie, RODO, walidacja
-Zarządzanie transakcjami	Szybkie dodawanie i filtrowanie	Intuicyjny interfejs, wydajne zapytania
-Budżetowanie	Kontrola wydatków	Funkcja limitów, alerty
-Wizualizacja danych	Zrozumiałe wykresy i statystyki	Integracja z generatorami wykresów
-Dostępność	Mobile-first	Responsywność UI
-Niezawodność	Brak utraty danych	Automatyczne zapisywanie i backup
+Zarządzanie transakcjami: Szybkie dodawanie przychodów i wydatków z podaniem kwoty, daty, kategorii i opisu; możliwość filtrowania transakcji po typie, dacie i kategorii; edycja i usuwanie wpisów.
+Budżetowanie i cele oszczędnościowe: Implementacja mechanizmu ustalania budżetu, monitorowanie realizacji celów, generowanie ostrzeżeń o przekroczeniu limitów.
+Wizualizacja danych: Integracja z modułem generowania wykresów; prezentacja danych w formie czytelnych statystyk (suma przychodów, suma wydatków, saldo).
+Powiadomienia: Moduł notyfikacji: ustawienia progu alertów, możliwość włączania/wyłączania powiadomień. 
+Dostępność i usability: Używanie aplikacji przede wszystkim na urządzeniach mobilnych; przejrzysty wygląd i intuicyjna nawigacja.
+Niezawodność i stabilność: Automatyczne zapisywanie danych po każdej transakcji, mechanizm backupu, stabilne działanie na wspieranych urządzeniach.
+Wydajność: Szybka reakcja aplikacji przy dodawaniu i analizie danych.
