@@ -46,19 +46,20 @@ Niezawodność
 -	Stabilna praca aplikacji na wspieranych urządzeniach.
 -	Minimalizacja ryzyka utraty danych (zapisywanie po każdej transakcji).
 ________________________________________
-5. Diagram przypadków użycia – opis
-Diagram obejmuje trzy główne obszary funkcjonalne:
-1.	Zarządzanie transakcjami (przychody i wydatki)
-o	Dodawanie / edycja / usuwanie transakcji
-o	Kategoryzacja
-3.	Analiza i kontrola budżetu
-o	Wyświetlanie statystyk
-o	Tworzenie budżetów i celów
-o	Przegląd wykresów
-4.	Powiadomienia i profil
-o	Zarządzanie powiadomieniami
-o	Edycja danych użytkownika
-(Jeśli chcesz, przygotuję Ci gotowy graficzny diagram UML.)
+5. Diagram przypadków użycia – opis (wersja z uproszczonymi podpunktami)
+Diagram przypadków użycia obejmuje trzy główne obszary funkcjonalne aplikacji CASH PILOT:
+(1). Zarządzanie transakcjami
+- Dodawanie transakcji (przychody i wydatki)
+- Edycja i usuwanie transakcji
+- Przypisywanie transakcji do kategorii
+(2). Analiza i kontrola budżetu
+- Wyświetlanie statystyk finansowych
+- Tworzenie budżetów miesięcznych
+- Ustalanie celów oszczędnościowych
+- Przegląd wykresów przedstawiających wydatki i ich strukturę
+(3). Powiadomienia i profil użytkownika
+- Zarządzanie powiadomieniami (np. alerty o przekroczeniu limitu)
+- Edycja danych użytkownika oraz ustawień aplikacji
 ________________________________________
 6. Analiza wymagań (podsumowanie)
 Zarządzanie transakcjami: Szybkie dodawanie przychodów i wydatków z podaniem kwoty, daty, kategorii i opisu; możliwość filtrowania transakcji po typie, dacie i kategorii; edycja i usuwanie wpisów.
