@@ -46,7 +46,7 @@ Niezawodność
 -	Stabilna praca aplikacji na wspieranych urządzeniach.
 -	Minimalizacja ryzyka utraty danych (zapisywanie po każdej transakcji).
 ________________________________________
-5. Diagram przypadków użycia – opis (wersja z uproszczonymi podpunktami)
+5. Diagram przypadków użycia – opis
 Diagram przypadków użycia obejmuje trzy główne obszary funkcjonalne aplikacji CASH PILOT:
 (1). Zarządzanie transakcjami
 - Dodawanie transakcji (przychody i wydatki)
