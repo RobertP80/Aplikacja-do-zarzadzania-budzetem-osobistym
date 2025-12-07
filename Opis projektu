@@ -33,29 +33,22 @@ Budżet i statystyki
 •	Przegląd wykresów (wydatki wg kategorii, wydatki na osi czasu).
 Powiadomienia i profil
 •	Zarządzanie powiadomieniami (włączanie/wyłączanie, ustawienie progu).
-•	Edycja profilu użytkownika (zmiana danych, usuwanie konta).
 ________________________________________
 4. Wymagania niefunkcjonalne
-Bezpieczeństwo
-•	Dane osobowe zgodne z RODO.
 Wydajność
 •	Dodanie transakcji ≤ 2 sekundy.
 •	Generowanie wykresów ≤ 3 sekundy dla typowego zestawu danych.
 Dostępność
 •	Interfejs dostosowany do urządzeń mobilnych.
-•	Czytelne kolory, widoczne informacje o saldzie, wyraźne przyciski.
+•	Czytelne kolory, widoczne informacje o saldzie, intuicyjne ikony nawigacji.
 •	Obsługa urządzeń z Androidem (od wersji 10.0 wzwyż).
 Niezawodność
 •	Stabilna praca aplikacji na wspieranych urządzeniach.
 •	Minimalizacja ryzyka utraty danych (zapisywanie po każdej transakcji).
 ________________________________________
 5. Diagram przypadków użycia – opis
-Diagram obejmuje cztery główne obszary funkcjonalne:
-1.	Logowanie i rejestracja użytkownika
-o	Rejestracja
-o	Logowanie
-o	Zmiana hasła
-2.	Zarządzanie transakcjami (przychody i wydatki)
+Diagram obejmuje trzy główne obszary funkcjonalne:
+1.	Zarządzanie transakcjami (przychody i wydatki)
 o	Dodawanie / edycja / usuwanie transakcji
 o	Kategoryzacja
 3.	Analiza i kontrola budżetu
