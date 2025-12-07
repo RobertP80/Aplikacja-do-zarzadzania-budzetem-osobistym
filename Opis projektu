@@ -37,7 +37,6 @@ Powiadomienia i profil
 ________________________________________
 4. Wymagania niefunkcjonalne
 Bezpieczeństwo
-•	Hasła przechowywane w formie hashy (np. SHA-256 / bcrypt).
 •	Dane osobowe zgodne z RODO.
 Wydajność
 •	Dodanie transakcji ≤ 2 sekundy.
