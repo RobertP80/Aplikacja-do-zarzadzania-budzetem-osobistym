@@ -1,1 +1,96 @@
+Opis aplikacji – prezentacja projektu CASH PILOT / Aplikacja do zarządzania budżetem osobistym”
+________________________________________
+1. Koncept systemu
+Projekt zakłada stworzenie mobilnej / webowej aplikacji umożliwiającej użytkownikom świadome zarządzanie finansami osobistymi.
+System pozwala na:
+- przychodów i wydatków,
+-	przypisywanie transakcji do kategorii,
+-	ustalanie budżetów miesięcznych oraz celów oszczędnościowych,
+-	analizę danych finansowych w formie statystyk i wykresów,
+-	otrzymywanie powiadomień o przekroczeniu limitów,
+-	przegląd salda i podstawowych informacji finansowych.
+Cel aplikacji: ułatwienie codziennej kontroli nad finansami, zwiększenie świadomości finansowej użytkowników oraz wsparcie w realizacji długoterminowych celów (np. oszczędności na wakacje, zakup sprzętu) 
+2. Analiza wymagań
+Aplikacja ma wspierać następujące potrzeby użytkownika:
+-	Dodaje wydatki z podaniem kwoty, daty, kategorii i opisu, aby śledzić, na co wydaję pieniądze.
+-	Dodaje przychody, aby widzieć saldo i kontrolować budżet.
+-	Przegląda listę transakcji z możliwością filtrowania po dacie, typie i kategorii.
+-	Ustawia budżet miesięczny i cele oszczędnościowe.
+-	Przegląda wykresy wydatków i udział poszczególnych kategorii, aby lepiej rozumieć swoje nawyki finansowe.
+-	Otrzymuje powiadomienia o przekroczeniu ustalonych limitów.
+3. Wymagania funkcjonalne
+Funkcjonalności podstawowe
+Zarządzanie finansami
+-	Dodawanie wydatków (kwota, data, kategoria, opis).
+-	Dodawanie przychodów (kwota, data, kategoria, opis).
+-	Edycja i usuwanie transakcji.
+-	Przegląd transakcji z filtrami (daty, typ, kategoria).
+-	Zarządzanie kategoriami (wybór z listy).
+Budżet i statystyki
+-	Ustawienie budżetu miesięcznego.
+-	Ustawienie celów oszczędnościowych (kwota docelowa, data, nazwa celu).
+-	Przegląd podstawowych statystyk: suma przychodów, suma wydatków, saldo.
+-	Przegląd wykresów (wydatki wg kategorii, wydatki na osi czasu).
+Powiadomienia i profil
+-	Zarządzanie powiadomieniami (włączanie/wyłączanie, ustawienie progu).
+________________________________________
+4. Wymagania niefunkcjonalne
+Wydajność
+-	Dodanie transakcji ≤ 2 sekundy.
+-	Generowanie wykresów ≤ 3 sekundy dla typowego zestawu danych.
+Dostępność
+-	Interfejs dostosowany do urządzeń mobilnych.
+-	Czytelne kolory, widoczne informacje o saldzie, intuicyjne ikony nawigacji.
+-	Obsługa urządzeń z Androidem (od wersji 10.0 wzwyż).
+Niezawodność
+-	Stabilna praca aplikacji na wspieranych urządzeniach.
+-	Minimalizacja ryzyka utraty danych (zapisywanie po każdej transakcji).
+________________________________________
+5. Diagram przypadków użycia – opis
+Diagram przypadków użycia obejmuje trzy główne obszary funkcjonalne aplikacji CASH PILOT:
+(1). Zarządzanie transakcjami
+- Dodawanie transakcji (przychody i wydatki)
+- Edycja i usuwanie transakcji
+- Przypisywanie transakcji do kategorii
+(2). Analiza i kontrola budżetu
+- Wyświetlanie statystyk finansowych
+- Tworzenie budżetów miesięcznych
+- Ustalanie celów oszczędnościowych
+- Przegląd wykresów przedstawiających wydatki i ich strukturę
+(3). Powiadomienia i profil użytkownika
+- Zarządzanie powiadomieniami (np. alerty o przekroczeniu limitu)
+- Edycja danych użytkownika oraz ustawień aplikacji
+________________________________________
+6. Analiza wymagań (podsumowanie)
+Zarządzanie transakcjami: Szybkie dodawanie przychodów i wydatków z podaniem kwoty, daty, kategorii i opisu; możliwość filtrowania transakcji po typie, dacie i kategorii; edycja i usuwanie wpisów.
+Budżetowanie i cele oszczędnościowe: Implementacja mechanizmu ustalania budżetu, monitorowanie realizacji celów, generowanie ostrzeżeń o przekroczeniu limitów.
+Wizualizacja danych: Integracja z modułem generowania wykresów; prezentacja danych w formie czytelnych statystyk (suma przychodów, suma wydatków, saldo).
+Powiadomienia: Moduł notyfikacji: ustawienia progu alertów, możliwość włączania/wyłączania powiadomień. 
+Dostępność i usability: Używanie aplikacji przede wszystkim na urządzeniach mobilnych; przejrzysty wygląd i intuicyjna nawigacja.
+Niezawodność i stabilność: Automatyczne zapisywanie danych po każdej transakcji, mechanizm backupu, stabilne działanie na wspieranych urządzeniach.
+Wydajność: Szybka reakcja aplikacji przy dodawaniu i analizie danych.
+
+
+```mermaid
+flowchart LR
+  U[User / Użytkownik]
+
+  UC1[(Dodawanie transakcji)]
+  UC2[(Edycja i usuwanie transakcji)]
+  UC3[(Przypisywanie kategorii)]
+  UC4[(Ustalanie budżetów)]
+  UC5[(Tworzenie celów oszczędnościowych)]
+  UC6[(Analiza: statystyki i wykresy)]
+  UC7[(Zarządzanie powiadomieniami)]
+  UC8[(Edycja profilu i ustawień)]
+
+  U --> UC1
+  U --> UC2
+  U --> UC3
+  U --> UC4
+  U --> UC5
+  U --> UC6
+  U --> UC7
+  U --> UC8
+```
 
