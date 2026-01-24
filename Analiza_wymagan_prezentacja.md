@@ -7,7 +7,7 @@
 
 **Tytuł projektu:** Aplikacja do zarządzania budżetem osobistym  
 **Akronim projektu:** CP (CASH PILOT)  
-**Data utworzenia:** [24.01.2026]  
+**Data utworzenia:** 24.01.2026  
 **Wersja dokumentu:** 1.0  
 **Autorzy:** Zespół projektowy CASH PILOT
 
@@ -847,3 +847,4 @@ W załącznikach powinny znaleźć się:
 ---
 
 **Koniec dokumentu**
+
