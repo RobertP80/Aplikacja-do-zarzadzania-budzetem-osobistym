@@ -36,7 +36,6 @@ Dokument obejmuje:
 Dokument przeznaczony jest dla:
 - Zespołu projektowego (analityków, programistów, testerów)
 - Prowadzącego projektu
-- Użytkowników końcowych aplikacji
 
 ### 2.4. Kontekst biznesowy
 
@@ -86,7 +85,7 @@ Aplikacja CASH PILOT odpowiada na rosnącą potrzebę łatwego kontrolowania wyd
 **Usuwanie transakcji**
 - Użytkownik może usuwać swoje transakcje
 - System wymaga potwierdzenia przed usunięciem
-- Usunięta transakcja jest trwale usuwana z bazy danych
+- Usunięta transakcja trafia do historii bazy danych
 
 **Przeglądanie transakcji**
 - System wyświetla listę transakcji użytkownika
@@ -847,4 +846,5 @@ W załącznikach powinny znaleźć się:
 ---
 
 **Koniec dokumentu**
+
 
