@@ -37,9 +37,9 @@ Imię i nazwisko|Rola w projekcie|Zakres odpowiedzialności
 ----------------|------------------------------------------------|----------------------------------------------
 Robert Przybyła|Kierownik projektu|Planowanie, koordynacja, raportowanie postępów, kontakt z prowadzącym, prezentacja końcowa
 Arkadiusz Pytka|Analityk systemowy|Analiza wymagań, tworzenie przypadków użycia, diagramów UML
-Arkadiusz Pytka|Programista|Implementacja backendu, integracja z bazą danych
-Urszula Sacha|Tester|Opracowanie scenariuszy testowych, testy funkcjonalne i akceptacyjne
-Urszula Sacha|Dokumentalista|Redakcja dokumentacji projektowej, raporty
+Urszula Sacha|Programista|Implementacja backendu, integracja z bazą danych
+Paweł Dąbrowski|Tester|Opracowanie scenariuszy testowych, testy funkcjonalne i akceptacyjne
+Alan Myśliwiec|Dokumentalista|Redakcja dokumentacji projektowej, raporty
 
 Prowadzący: mgr Wojciech Moniuszko
 Jednostka dydaktyczna: ??
