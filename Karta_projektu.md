@@ -121,9 +121,9 @@ Rola|Osoba|Odpowiedzialność
 --------------|-------------------------|-----------------------------------------------------------------------
 Kierownik projektu|Robert Przybyła|Harmonogram, raporty, koordynacja
 Analityk|Arkadiusz Pytka|Wymagania, diagramy UML
-Programista|Arkadiusz Pytka|Backend, baza danych
-Tester|Urszula Sacha|Testy, raporty błędów
-Dokumentalista|Urszula Sacha|Dokumentacja, raporty, prezentacja
+Programista|Urszula Sacha|Backend, baza danych
+Tester|Paweł Dąbrowski|Testy, raporty błędów
+Dokumentalista|Alan Myśliwiec|Dokumentacja, raporty, prezentacja
 
 7. Zasoby i narzędzia
 
