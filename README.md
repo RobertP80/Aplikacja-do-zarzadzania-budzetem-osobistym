@@ -1,6 +1,4 @@
-Rozumiem! Widzę na zrzucie ekranu, że masz otwarty edytor pliku README.md na GitHubie i znajduje się w nim Twój diagram Mermaid. Ważna uwaga: w Twoim obecnym kodzie brakuje na samym końcu znaków domykających diagram (```), przez co cały plik może się źle wyświetlać.
 
-Aby wszystko wyglądało idealnie, skopiuj cały poniższy kod i wklej go w edytorze GitHub w linijce 23 (dokładnie pod Twoim obecnym tekstem). Dodałem na samym początku brakujące domknięcie diagramu, a pod nim całą profesjonalną treść README.
 CASH PILOT - Aplikacja do zarządzania budżetem osobistym
 
 Aplikacja webowa stworzona w ramach przedmiotu Zaawansowany projekt zespołowy cz. 2. System umożliwia użytkownikom świadome i efektywne zarządzanie finansami osobistymi poprzez monitorowanie przychodów i wydatków, kategoryzację transakcji oraz wizualizację danych w postaci interaktywnych wykresów.
