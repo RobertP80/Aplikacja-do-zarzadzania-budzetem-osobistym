@@ -1,33 +1,33 @@
 
-CASH PILOT - Aplikacja do zarządzania budżetem osobistym
+# CASH PILOT - Aplikacja do zarządzania budżetem osobistym
 
-Aplikacja webowa stworzona w ramach przedmiotu Zaawansowany projekt zespołowy cz. 2. System umożliwia użytkownikom świadome i efektywne zarządzanie finansami osobistymi poprzez monitorowanie przychodów i wydatków, kategoryzację transakcji oraz wizualizację danych w postaci interaktywnych wykresów.
-🚀 Główne funkcjonalności
+Aplikacja webowa stworzona w ramach przedmiotu **Zaawansowany projekt zespołowy cz. 2**. System umożliwia użytkownikom świadome i efektywne zarządzanie finansami osobistymi poprzez monitorowanie przychodów i wydatków, kategoryzację transakcji oraz wizualizację danych w postaci interaktywnych wykresów.
 
-    Autentykacja i autoryzacja: Bezpieczny system logowania użytkowników.
+---
 
-    Zarządzanie transakcjami (CRUD): Dodawanie, przeglądanie, edytowanie oraz usuwanie operacji finansowych (przychodów i wydatków).
+## 🚀 Główne funkcjonalności
 
-    Bieżące podsumowania finansowe: Automatyczne obliczanie sumy przychodów, wydatków oraz aktualnego salda.
+* **Autentykacja i autoryzacja:** Bezpieczny system logowania użytkowników.
+* **Zarządzanie transakcjami (CRUD):** Dodawanie, przeglądanie, edytowanie oraz usuwanie operacji finansowych (przychodów i wydatków).
+* **Bieżące podsumowania finansowe:** Automatyczne obliczanie sumy przychodów, wydatków oraz aktualnego salda.
+* **Interaktywne wykresy:** Wizualizacja proporcji wydatków i przychodów za pomocą dynamicznego wykresu kołowego (Doughnut Chart) przy użyciu biblioteki Chart.js.
+* **Responsywny interfejs (UI):** Wygląd aplikacji w pełni dostosowany do urządzeń mobilnych oraz desktopowych.
+* **Wsparcie dla PWA (Progressive Web App):** Aplikacja z plikiem manifestu oraz wsparciem dla Service Workera.
 
-    Interaktywne wykresy: Wizualizacja proporcji wydatków i przychodów za pomocą dynamicznego wykresu kołowego (Doughnut Chart) przy użyciu biblioteki Chart.js.
+---
 
-    Responsywny interfejs (UI): Wygląd aplikacji w pełni dostosowany do urządzeń mobilnych oraz desktopowych.
+## 🛠️ Stos technologiczny
 
-    Wsparcie dla PWA (Progressive Web App): Aplikacja z plikiem manifestu oraz wsparciem dla Service Workera.
+* **Backend:** PHP
+* **Frontend:** HTML5, CSS3, JavaScript (ES6+), Bootstrap v5.3.3
+* **Baza danych:** MySQL / MariaDB
+* **Biblioteki zewnętrzne:** Chart.js (wykresy), Bootstrap Icons
 
-🛠️ Stos technologiczny
+---
 
-    Backend: PHP
+## 📁 Struktura repozytorium
 
-    Frontend: HTML5, CSS3, JavaScript (ES6+), Bootstrap v5.3.3
-
-    Baza danych: MySQL / MariaDB
-
-    Biblioteki zewnętrzne: Chart.js (wykresy), Bootstrap Icons
-
-📁 Struktura repozytorium
-
+```text
 ├── budzet_osobisty/               # Folder zawierający kod źródłowy aplikacji
 │   ├── auth.php                   # Obsługa procesu logowania i sesji
 │   ├── db.php                     # Konfiguracja połączenia z bazą danych
@@ -43,20 +43,6 @@ Aplikacja webowa stworzona w ramach przedmiotu Zaawansowany projekt zespołowy c
 ├── INSTRUKCJA_URUCHOMIENIA.md     # Techniczny przewodnik wdrożeniowy (localhost)
 ├── Karta_projektu.md              # Dokument inicjalizacyjny projektu z harmonogramem
 └── README.md                      # Niniejszy plik informacyjny
-
-⚙️ Szybkie uruchomienie
-
-Dokładny opis konfiguracji serwera lokalnego (np. XAMPP) znajduje się w pliku INSTRUKCJA_URUCHOMIENIA.md.
-
-Skrócona instrukcja:
-
-    Sklonuj repozytorium do katalogu swojego serwera (np. htdocs).
-
-    Zaimportuj plik bazy danych .sql w narzędziu phpMyAdmin.
-
-    Skonfiguruj poprawne dane dostępowe do bazy w pliku db.php.
-
-    Uruchom aplikację w przeglądarce pod adresem http://localhost/[nazwa_folderu]/index.php.
 
 ```mermaid
 flowchart LR
