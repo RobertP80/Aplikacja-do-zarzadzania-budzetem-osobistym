@@ -1,4 +1,3 @@
-
 # CASH PILOT - Aplikacja do zarządzania budżetem osobistym
 
 Aplikacja webowa stworzona w ramach przedmiotu **Zaawansowany projekt zespołowy cz. 2**. System umożliwia użytkownikom świadome i efektywne zarządzanie finansami osobistymi poprzez monitorowanie przychodów i wydatków, kategoryzację transakcji oraz wizualizację danych w postaci interaktywnych wykresów.
