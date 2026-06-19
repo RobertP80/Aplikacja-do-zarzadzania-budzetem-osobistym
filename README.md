@@ -1,3 +1,64 @@
+Rozumiem! Widzę na zrzucie ekranu, że masz otwarty edytor pliku README.md na GitHubie i znajduje się w nim Twój diagram Mermaid. Ważna uwaga: w Twoim obecnym kodzie brakuje na samym końcu znaków domykających diagram (```), przez co cały plik może się źle wyświetlać.
+
+Aby wszystko wyglądało idealnie, skopiuj cały poniższy kod i wklej go w edytorze GitHub w linijce 23 (dokładnie pod Twoim obecnym tekstem). Dodałem na samym początku brakujące domknięcie diagramu, a pod nim całą profesjonalną treść README.
+CASH PILOT - Aplikacja do zarządzania budżetem osobistym
+
+Aplikacja webowa stworzona w ramach przedmiotu Zaawansowany projekt zespołowy cz. 2. System umożliwia użytkownikom świadome i efektywne zarządzanie finansami osobistymi poprzez monitorowanie przychodów i wydatków, kategoryzację transakcji oraz wizualizację danych w postaci interaktywnych wykresów.
+🚀 Główne funkcjonalności
+
+    Autentykacja i autoryzacja: Bezpieczny system logowania użytkowników.
+
+    Zarządzanie transakcjami (CRUD): Dodawanie, przeglądanie, edytowanie oraz usuwanie operacji finansowych (przychodów i wydatków).
+
+    Bieżące podsumowania finansowe: Automatyczne obliczanie sumy przychodów, wydatków oraz aktualnego salda.
+
+    Interaktywne wykresy: Wizualizacja proporcji wydatków i przychodów za pomocą dynamicznego wykresu kołowego (Doughnut Chart) przy użyciu biblioteki Chart.js.
+
+    Responsywny interfejs (UI): Wygląd aplikacji w pełni dostosowany do urządzeń mobilnych oraz desktopowych.
+
+    Wsparcie dla PWA (Progressive Web App): Aplikacja z plikiem manifestu oraz wsparciem dla Service Workera.
+
+🛠️ Stos technologiczny
+
+    Backend: PHP
+
+    Frontend: HTML5, CSS3, JavaScript (ES6+), Bootstrap v5.3.3
+
+    Baza danych: MySQL / MariaDB
+
+    Biblioteki zewnętrzne: Chart.js (wykresy), Bootstrap Icons
+
+📁 Struktura repozytorium
+├── budzet_osobisty/               # Folder zawierający kod źródłowy aplikacji
+│   ├── auth.php                   # Obsługa procesu logowania i sesji
+│   ├── db.php                     # Konfiguracja połączenia z bazą danych
+│   ├── delete.php                 # Skrypt usuwania transakcji
+│   ├── edit.php                   # Formularz oraz logika edycji transakcji
+│   ├── index.php                  # Główny panel aplikacji (formularz, wykres, historia)
+│   ├── login.php                  # Widok panelu logowania
+│   ├── logout.php                 # Skrypt bezpiecznego wylogowania
+│   └── manifest.json              # Plik konfiguracyjny PWA
+├── TESTY/                         # Dokumentacja i scenariusze testów aplikacji
+├── Analiza_wymagan_prezentacja.md # Analiza wymagań funkcjonalnych i niefunkcjonalnych
+├── DOKUMENTACJA_UZYTKOWNIKA.md    # Instrukcja obsługi aplikacji dla użytkownika
+├── INSTRUKCJA_URUCHOMIENIA.md     # Techniczny przewodnik wdrożeniowy (localhost)
+├── Karta_projektu.md              # Dokument inicjalizacyjny projektu z harmonogramem
+└── README.md                      # Niniejszy plik informacyjny
+
+⚙️ Szybkie uruchomienie
+
+Dokładny opis konfiguracji serwera lokalnego (np. XAMPP) znajduje się w pliku INSTRUKCJA_URUCHOMIENIA.md.
+
+Skrócona instrukcja:
+
+    Sklonuj repozytorium do katalogu swojego serwera (np. htdocs).
+
+    Zaimportuj plik bazy danych .sql w narzędziu phpMyAdmin.
+
+    Skonfiguruj poprawne dane dostępowe do bazy w pliku db.php.
+
+    Uruchom aplikację w przeglądarce pod adresem http://localhost/[nazwa_folderu]/index.php.
+
 ```mermaid
 flowchart LR
   U[User / Użytkownik]
