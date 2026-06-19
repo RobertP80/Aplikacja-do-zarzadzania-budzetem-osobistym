@@ -27,6 +27,7 @@ Aplikacja webowa stworzona w ramach przedmiotu Zaawansowany projekt zespołowy c
     Biblioteki zewnętrzne: Chart.js (wykresy), Bootstrap Icons
 
 📁 Struktura repozytorium
+
 ├── budzet_osobisty/               # Folder zawierający kod źródłowy aplikacji
 │   ├── auth.php                   # Obsługa procesu logowania i sesji
 │   ├── db.php                     # Konfiguracja połączenia z bazą danych
