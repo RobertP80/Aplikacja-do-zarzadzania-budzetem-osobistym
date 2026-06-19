@@ -43,7 +43,6 @@ Aplikacja webowa stworzona w ramach przedmiotu **Zaawansowany projekt zespołowy
 ├── Karta_projektu.md              # Dokument inicjalizacyjny projektu z harmonogramem
 └── README.md                      # Niniejszy plik informacyjny
 
-```mermaid
 flowchart LR
   U[User / Użytkownik]
 
